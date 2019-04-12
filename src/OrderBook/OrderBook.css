@@ -1,0 +1,7 @@
+.banner {
+  border: 2px solid #d4d4d4;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  margin: 8px 0;
+}
