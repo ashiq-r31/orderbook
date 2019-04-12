@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import OrderTableRows from "../OrderTableRows/OrderTableRows";
 import "./OrderBook.css";
 
-class App extends Component {
+class OrderBook extends Component {
   state = {
     asks: [],
     bids: []
@@ -80,4 +80,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default OrderBook;
