@@ -1,9 +1,6 @@
 import React from "react";
 
-const OrderTableRows = React.memo(function OrderTableRows({
-  orders,
-  themeColor
-}) {
+function OrderTableRows({ orders, themeColor }) {
   return orders.slice(0, 6).map((order, i) => (
     <div className="row" key={i}>
       <div className="column text-left">
@@ -17,6 +14,6 @@ const OrderTableRows = React.memo(function OrderTableRows({
       </div>
     </div>
   ));
-});
+}
 
 export default OrderTableRows;
